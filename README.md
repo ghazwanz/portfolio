@@ -97,4 +97,4 @@ npm run preview
 
 ## 📄 License
 
-MIT © [Ghazwan Ababil](https://github.com/ghazwanzu)
+MIT © [Ghazwan Ababil](https://github.com/ghazwanz)
