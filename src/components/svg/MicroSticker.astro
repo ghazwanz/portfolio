@@ -1,0 +1,64 @@
+---
+interface Props {
+  type: "flower" | "thumbs-up" | "cross" | "coin" | "sparkle";
+  class?: string;
+}
+const { type, class: className = "w-6 h-6" } = Astro.props;
+---
+
+{type === "flower" && (
+  <svg class={className} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+    <!-- Petals Yellow -->
+    <rect x="6" y="2" width="4" height="4" fill="#FACC15" />
+    <rect x="2" y="6" width="4" height="4" fill="#FACC15" />
+    <rect x="10" y="6" width="4" height="4" fill="#FACC15" />
+    <rect x="6" y="10" width="4" height="4" fill="#FACC15" />
+    <!-- Center Orange -->
+    <rect x="6" y="6" width="4" height="4" fill="#FB923C" />
+    <!-- Pixel Outline -->
+    <path d="M6 1h4v1H6V1zM2 5h4v1H2V5zm8 0h4v1h-4V5zM1 6h1v4H1V6zm14 0h1v4h-1V6zm-13 4h4v1H2v-1zm8 0h4v1h-4v-1zm-4 4h4v1H6v-1z" fill="#111113" />
+  </svg>
+)}
+
+{type === "cross" && (
+  <svg class={className} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+    <!-- Red Cross -->
+    <rect x="2" y="2" width="4" height="4" fill="#EF4444" />
+    <rect x="10" y="2" width="4" height="4" fill="#EF4444" />
+    <rect x="5" y="5" width="6" height="6" fill="#EF4444" />
+    <rect x="2" y="10" width="4" height="4" fill="#EF4444" />
+    <rect x="10" y="10" width="4" height="4" fill="#EF4444" />
+    <!-- Outline -->
+    <path d="M2 1h4v1H2V1zm8 0h4v1h-4V1zm-9 1h1v4H1V2zm14 0h1v4h-1V2zm-9 8h4v1H6v-1zm-4 4h4v1H2v-1zm8 0h4v1h-4v-1zm4-4h1v4h-1v-4zM1 10h1v4H1v-4z" fill="#111113" />
+  </svg>
+)}
+
+{type === "thumbs-up" && (
+  <svg class={className} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+    <!-- Thumb Body White -->
+    <rect x="4" y="2" width="3" height="6" fill="#FFFFFF" />
+    <rect x="3" y="7" width="9" height="7" fill="#FFFFFF" />
+    <!-- Outline -->
+    <path d="M4 1h3v1H4V1zM3 7h1v7H3V7zm8 0h1v7h-1V7zm-7 7h8v1H4v-1zM7 2h1v5H7V2z" fill="#111113" />
+  </svg>
+)}
+
+{type === "coin" && (
+  <svg class={className} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+    <!-- Gold Coin -->
+    <rect x="4" y="2" width="8" height="12" fill="#FBBF24" />
+    <rect x="6" y="5" width="4" height="6" fill="#F59E0B" />
+    <!-- Center Inscription -->
+    <rect x="7" y="6" width="2" height="4" fill="#FEF08A" />
+    <!-- Outline -->
+    <path d="M4 1h8v1H4V1zM2 3h2v10H2V3zm10 0h2v10h-2V3zm-8 11h8v1H4v-1z" fill="#111113" />
+  </svg>
+)}
+
+{type === "sparkle" && (
+  <svg class={className} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+    <rect x="7" y="1" width="2" height="14" fill="#111113" />
+    <rect x="1" y="7" width="14" height="2" fill="#111113" />
+    <rect x="5" y="5" width="6" height="6" fill="#FF5722" />
+  </svg>
+)}

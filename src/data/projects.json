@@ -1,0 +1,70 @@
+[
+  {
+    "id": "net-folio",
+    "title": "NET FOLIO",
+    "year": "2025",
+    "role": "Front-end & Framer Developer",
+    "category": "Portfolio & Agency Template",
+    "tools": ["Framer", "Figma", "Responsive Design", "Motion"],
+    "color": "#E2E8F0",
+    "url": "https://framer.com/marketplace/templates/net-folio",
+    "img": "https://image.mux.com/92hsFt5WZVm1LeWKk3dJSay02xw9Ki4fyZXJbtp1BHUA/thumbnail.webp?time=8.8",
+    "description": "Implemented Figma design into an interactive website template using Framer. Built smooth scroll animations, interactive hover states, and ensured fluid responsiveness across desktop, tablet, and mobile breakpoints.",
+    "deliverables": [
+      "Figma to Framer pixel-accurate slicing",
+      "Scroll animations and micro-interactions",
+      "Full responsive layout optimization"
+    ]
+  },
+  {
+    "id": "scaleplus",
+    "title": "SCALEPLUS",
+    "year": "2025",
+    "role": "Front-end & Framer Developer",
+    "category": "SaaS Landing Page Template",
+    "tools": ["Framer", "Figma", "Interactive UI", "Component Variants"],
+    "color": "#F1F5F9",
+    "url": "https://framer.com/marketplace/templates/saasplus",
+    "img": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F47125%2Fsaasplus-A8t6seH5WOH8LNaeSL0G1pcW4kwWYs&w=2048&q=80",
+    "description": "Translated Figma components and dark dashboard UI into an interactive SaaS template. Developed custom interactive cards, page transitions, and structured scalable layouts.",
+    "deliverables": [
+      "Dark-mode SaaS interface implementation",
+      "Interactive component states and triggers",
+      "Cross-device layout and performance audit"
+    ]
+  },
+  {
+    "id": "strategix",
+    "title": "STRATEGIX",
+    "year": "2026",
+    "role": "Front-end & Framer Developer",
+    "category": "Business & Agency Template",
+    "tools": ["Framer", "Figma", "Grid Systems", "Web Animation"],
+    "color": "#E2E8F0",
+    "url": "https://framer.com/marketplace/templates/strategix",
+    "img": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F45a83748-38f6-4547-8ddb-7fadaf0d59de%2Fcxf0k91p&w=2048&q=80",
+    "description": "Constructed an agency business template in Framer adhering strictly to typography scales and layout grids from Figma. Enhanced with subtle ambient lighting animations and high-converting sections.",
+    "deliverables": [
+      "Modular layout structure from Figma artboards",
+      "Custom page transition effects",
+      "Adaptive tablet and mobile viewport tuning"
+    ]
+  },
+  {
+    "id": "lumetrix",
+    "title": "LUMETRIX",
+    "year": "2026",
+    "role": "Front-end & Framer Developer",
+    "category": "Creative Portfolio Template",
+    "tools": ["Framer", "Figma", "Page Transitions", "Visual FX"],
+    "color": "#F8FAFC",
+    "url": "https://framer.com/marketplace/templates/lumetrix",
+    "img": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F59987%2Flumetrix-MZFFP6os5G6vNKqVFH0qLGriDJj4Y2&w=2048&q=80",
+    "description": "Built a high-contrast creative portfolio template featuring smooth page transitions and interactive elements. Sliced complex visual assets while maintaining instant loading times.",
+    "deliverables": [
+      "Framer animation tuning and interaction modeling",
+      "High-contrast visual hierarchy execution",
+      "Seamless responsive scaling without layout shift"
+    ]
+  }
+]

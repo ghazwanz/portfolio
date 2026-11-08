@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Ubuntu Sans', sans-serif;
+    --font-heading: 'Ubuntu Sans', sans-serif;
+    --font-mono: 'Ubuntu Sans', monospace;
+    --font-pixel: 'Ubuntu Sans', sans-serif;
+  }
+
+  body {
+    background-color: #0A0A0B;
+    color: #111113;
+    font-family: var(--font-display);
+    overflow-x: clip;
+  }
+}
+
+.font-heading {
+  font-family: 'Ubuntu Sans', sans-serif;
+}
+
+.font-pixel {
+  font-family: 'Ubuntu Sans', sans-serif;
+}
+
+.font-mono-custom {
+  font-family: 'Ubuntu Sans', monospace;
+}
+
+/* Horizontal infinite scrolling cloud animations */
+@keyframes cloudLoop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-cloud-slow {
+  animation: cloudLoop 35s linear infinite;
+}
+
+.animate-cloud-mid {
+  animation: cloudLoop 24s linear infinite;
+}
+
+.animate-cloud-fast {
+  animation: cloudLoop 18s linear infinite;
+}

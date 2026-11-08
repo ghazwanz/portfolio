@@ -1,0 +1,52 @@
+---
+interface Props {
+  class?: string;
+}
+const { class: className = "w-16 h-16 sm:w-24 sm:h-24" } = Astro.props;
+---
+
+<svg
+  class={className}
+  viewBox="0 0 32 32"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  shape-rendering="crispEdges"
+>
+  <!-- Hair: Cyan/Teal anime pixel hair -->
+  <rect x="10" y="3" width="12" height="3" fill="#22D3EE" />
+  <rect x="8" y="6" width="16" height="3" fill="#22D3EE" />
+  <rect x="7" y="9" width="4" height="4" fill="#22D3EE" />
+  <rect x="21" y="9" width="4" height="4" fill="#22D3EE" />
+  
+  <!-- Face/Skin -->
+  <rect x="10" y="8" width="12" height="8" fill="#FDE047" />
+  <!-- Eyes -->
+  <rect x="12" y="11" width="2" height="2" fill="#0F172A" />
+  <rect x="18" y="11" width="2" height="2" fill="#0F172A" />
+  <!-- Blush -->
+  <rect x="10" y="13" width="2" height="1" fill="#F87171" />
+  <rect x="20" y="13" width="2" height="1" fill="#F87171" />
+  
+  <!-- White Hoodie/Shirt -->
+  <rect x="9" y="16" width="14" height="9" fill="#FFFFFF" />
+  <rect x="15" y="17" width="2" height="8" fill="#E2E8F0" />
+  <rect x="7" y="17" width="2" height="6" fill="#FFFFFF" />
+  <rect x="23" y="17" width="2" height="6" fill="#FFFFFF" />
+  <!-- Hands -->
+  <rect x="7" y="23" width="2" height="2" fill="#FDE047" />
+  <rect x="23" y="23" width="2" height="2" fill="#FDE047" />
+
+  <!-- Pants (Dark Slate) -->
+  <rect x="10" y="25" width="5" height="4" fill="#1E293B" />
+  <rect x="17" y="25" width="5" height="4" fill="#1E293B" />
+
+  <!-- Shoes -->
+  <rect x="9" y="29" width="6" height="2" fill="#0284C7" />
+  <rect x="17" y="29" width="6" height="2" fill="#0284C7" />
+
+  <!-- Pixel Outline (Dark) -->
+  <path
+    d="M10 2h12v1H10V2zm-2 3h2v1H8V5zm16 0h2v1h-2V5zm-2 3h2v1h-2V8zm-14 0h2v1H6V8zm-1 4h2v4H5v-4zm22 0h2v4h-2v-4zm-1 4h2v7h-2v-7zm-20 0h2v7H6v-7zm1 7h2v2H7v-2zm18 0h2v2h-2v-2zm-1 2h2v4h-2v-4zm-8 0h2v4h-2v-4zm-8 0h2v4H8v-4zm-1 4h8v1H7v-1zm10 0h8v1h-8v-1z"
+    fill="#09090B"
+  />
+</svg>
